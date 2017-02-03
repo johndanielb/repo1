@@ -1,0 +1,67 @@
+git clone url.git (master) 
+
+
+master --- develop--- branch1--- barch2 
+
+
+
+
+git checkout -b "newbranch"
+
+
+make all code changes 
+
+1.py 2.py 
+
+git status
+
+
+git add 1.py 2.py 
+
+
+
+git fetch origin master/brach1/ brach2 
+
+git commit -m "any msg"
+
+
+git push origin newbranch 
+
+
+
+------------------------------------------
+
+
+git clone url.git  (master) 
+
+git checkout branch1 
+
+code changes
+1.py 2. py 
+
+git add 1.py 2.py 
+
+
+git fetch origin master ( to find if thr is any merge issue)
+
+git commit origin  branch1
+git push origin branch1 
+
+------------------------------------------------
+
+
+git clone url.git (master) 
+
+git checkout branch1 
+
+git checkout -b "newbranch"
+
+
+
+
+
+git status--
+git branch---current branhc i am working 
+
+
+
